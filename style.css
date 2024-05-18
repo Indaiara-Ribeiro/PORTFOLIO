@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: 0;
+}
+
+h3 {
+    color: rgb(8, 6, 6);
+    text-align: start;
+    padding: 32px; 
+}
+
+.header-menu {
+    background-color: rgb(145, 22, 194);  
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding: 8px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    height: 10px;
+}
+
+.header-menu nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lista-menu {
+    display: flex;
+    justify-content: space-evenly; /*põe o elemento um do lado do outro*/
+    width: 50%;
+    list-style: none;
+    align-items: center;   
+}
+
+.lista-menu li > a { /*configura e estiliza o li e ao mesmo tempo o link(a)*/
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    background-color: rgb(181, 132, 228);
+    height: 100vh;
+    width: 100%;   
+}
+
+.subcontainer-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+}
+
+.div-img {
+    margin-bottom: 20px;
+}
+.div-img img {
+    position: absolute;
+    top: 10%;
+    left: 37%;
+    border: 10px double;
+    border-radius: 290px;
+    max-height: 550px;
+    max-width: 550px;  
+}
+
+.descricao {
+    margin-top: 650px;
+}
+.texto-1 {
+    padding: 32px;  
+}
+
+.principal-2 {
+    display: flex;
+    background-color: antiquewhite;
+    height: 100vh;
+    width: 100%;
+}
+
+.subcontainer-principal2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.subcontainer-principal2 li>a {
+    font-size: 18px;
+    text-decoration: inherit;
+}
+
+h3 {
+    font-size: 60px;
+}
+
+.lista-item {
+    padding: 32px;
+}
+
+.lista-item ul li {
+    margin-bottom: 52px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.lista-item p {
+    font-size: 18px;
+}
+
+.img-mulher-dev img {
+    position: absolute;
+    display: flex;
+    left: 1050px;
+    top: 2370px;
+    border-radius: 30px;
+    max-height: 650px;
+    max-width: 650px;
+    border: 6px double;  
+}
+
+.principal-3 {
+    display: flex;
+    background-color: rgb(252, 204, 142);
+    height: 100vh;
+    width: 100%;
+}
+
+.subcontainer-principal3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.subcontainer-principal3 li>a {
+    font-size: 18px;
+    text-decoration: inherit;
+}
+
+.footer {
+    background-color: rgb(177, 83, 214);
+    height: 30vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;      
+}
+
+.Contato {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;   
+}
+
+.lista-footer {
+    color: #fff7f7; /*Muda a cor dos ícones*/
+    font-weight: 700; /*Torna mais forte a espessura da fonte*/
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;   
+}
+
+.estilo-icon {
+    font-size: 22px;  
+}
+
+.links {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 40px;   
+}
+
